@@ -30,6 +30,15 @@ export default function Home() {
         </svg>
       </button>
 
+      {/* Mobile Overlay - Click to Close Sidebar */}
+      {isSidebarOpen && (
+        <div
+          className="lg:hidden fixed inset-0 bg-black/50 backdrop-blur-sm z-30"
+          onClick={() => setIsSidebarOpen(false)}
+          aria-label="Close Sidebar"
+        />
+      )}
+
       <div className={`fixed lg:fixed lg:left-0 lg:top-0 lg:h-screen lg:w-[28rem] bg-sidebar border-r border-sidebar-border z-40 transition-transform duration-300 ease-in-out ${isSidebarOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"} lg:block w-80 h-full`}>
         <Sidebar onClose={() => setIsSidebarOpen(false)} />
       </div>
