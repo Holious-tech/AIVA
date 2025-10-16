@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Agentic Memory System",
+    "description": "Built a production-grade agentic memory system with persistent context management and autonomous decision-making capabilities",
+    "technology_tags": ["LangChain", "Pinecone", "GPT-4", "FastAPI"],
+    "link": "https://github.com/Holious-tech/Agentic-AI-Engineering-Prototypes",
+    "linkType": "github"
+  },
+  {
+    "title": "Enterprise RAG Platform",
+    "description": "Designed and deployed a scalable RAG system processing 10M+ documents with 95% retrieval accuracy for enterprise clients",
+    "technology_tags": ["IBM Watson", "Vector DB", "Python", "Next.js"],
+    "link": "https://github.com/Holious-tech/RAG-Systems-Prototypes",
+    "linkType": "github"
+  },
+  {
+    "title": "Knowledge Graph Analytics",
+    "description": "Created semantic knowledge graph connecting 500K+ entities with advanced query capabilities and visualization",
+    "technology_tags": ["Neo4j", "Python", "NLP", "GraphQL"],
+    "link": "https://www.kaggle.com/code/idodedestinym/knowledge-graphs-vector-embeddings-prototypes",
+    "linkType": "kaggle"
+  },
+  {
+    "title": "Data Pipeline Automation",
+    "description": "Engineered automated ETL pipelines processing 1TB+ daily data with real-time monitoring and error handling",
+    "technology_tags": ["Apache Airflow", "Python", "PostgreSQL", "Docker"],
+    "link": "https://github.com/Holious-tech/Automation-Data-Engineering-Prototypes",
+    "linkType": "github"
+  }
+]
