@@ -13,7 +13,7 @@ const jsonLd = {
   "name": "IDODE DESTINY M",
   "jobTitle": "AI Value Architect & Agentic RAG Specialist",
   "description": "Expert in Agentic RAG, Knowledge Graphs, RAG Systems, and Data Engineering, delivering innovative AI solutions for enterprises.",
-  "url": "https://yourdomain.com", // Replace with actual URL
+  "url": "https://Idode.io", // Replace with actual URL
   "sameAs": [
     "https://github.com/Holious-tech",
     "https://www.kaggle.com/idodedestinym",
@@ -31,7 +31,8 @@ const jsonLd = {
 }
 
 export const metadata: Metadata = {
-  title: "IDODE DESTINY M | AI Value Architect & Agentic RAG Specialist",
+  title: "AI Value Architect",
+  metadataBase: new URL('https://Idode.io'),
   description:
     "Expert AI Value Architect specializing in Agentic RAG, Knowledge Graphs, RAG Systems, and Data Engineering. Delivering high-impact AI solutions, prototypes, and scalable code for enterprises. Portfolio showcasing AI engineering expertise.",
   keywords: [
@@ -69,7 +70,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "IDODE DESTINY M: AI Value Architect & Agentic RAG Expert",
     description: "Discover expertise in Agentic RAG, Knowledge Graphs, and Data Engineering. Explore AI prototypes and enterprise solutions from a leading AI specialist.",
-    url: "https://yourdomain.com", // Replace with actual URL when deployed
+    url: "https://Idode.io", // Replace with actual URL when deployed
     siteName: "AI Value Architect Portfolio",
     images: [
       {
@@ -88,8 +89,8 @@ export const metadata: Metadata = {
     description: "Expert in Agentic RAG and AI engineering. View portfolio of innovative AI solutions.",
     images: ["/professional-headshot.png"],
   },
-  other: {
-    "article:author": "IDODE DESTINY M",
+  icons: {
+    icon: '/professional-headshot.png', // Use existing image as favicon or add a proper favicon.ico
   },
 }
 

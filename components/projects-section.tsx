@@ -22,8 +22,10 @@ export function ProjectsSection() {
             description={project.description}
             technology_tags={project.technology_tags}
             link={project.link}
-            linkType={project.linkType as "github" | "kaggle"}
+            linkType={project.linkType as "github" | "kaggle" | "website"}
             index={index}
+            status={project.status}
+            buttonText={project.buttonText}
           />
         ))}
       </div>

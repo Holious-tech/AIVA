@@ -1,5 +1,13 @@
 [
   {
+    "title": "PACE",
+    "description": "An AI-powered Lead Conversion Specialist for UK estate agencies, automating instant lead engagement, qualification, and scheduling via voice AI and Google Workspace integration to maximize conversion rates and ROI.",
+    "technology_tags": ["Twilio", "ElevenLabs", "n8n", "Google Sheets", "Google Calendar"],
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7346554793852583937/",
+    "linkType": "website",
+    "buttonText": "Quick Preview"
+  },
+  {
     "title": "Agentic Memory System",
     "description": "Built a production-grade agentic memory system with persistent context management and autonomous decision-making capabilities",
     "technology_tags": ["LangChain", "Pinecone", "GPT-4", "FastAPI"],
@@ -26,5 +34,13 @@
     "technology_tags": ["Apache Airflow", "Python", "PostgreSQL", "Docker"],
     "link": "https://github.com/Holious-tech/Automation-Data-Engineering-Prototypes",
     "linkType": "github"
+  },
+  {
+    "title": "AATC Marketplace",
+    "description": "Through legions of specialized AI agents, Anog automates market intelligence, pricing, quality control, and supply coordination, building a self-sustaining ecosystem that enhances efficiency, profitability, and trust across the agri-sector.",
+    "technology_tags": ["Multi-Agent Systems", "Computer Vision", "IoT Integration", "Blockchain", "Machine Learning"],
+    "link": "https://aagrotrade.com",
+    "linkType": "website",
+    "status": "under-construction"
   }
 ]
